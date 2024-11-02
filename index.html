@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El camino del lector</title>
+    <link rel=" icon" type="image/png" sizes="32x32" href=images/android-icon-48x48.png>
+</head>
+<body>
+  <header>
+   <div class="encabezado">
+    <!- No podía ver el encabezado de la página sin el título, y según he leído eso solo se consigue con CSS, cómo aún no tengo idea de cómo funciona, lo he buscado en san google y he encontrado esta solución aunque no la entienda bien del todo (aunque he estado trasteando con ella). Seguramente no sea la más correcta, pero de momento me hace el apaño para este ejercicio. Prometo revisar esta parte después del módulo de CSS! -->
+      <img src="images/sharpen-your-mind-by-education.jpg" alt="imagen de libros en una estantería" width="100%" height="300" title="El camino del lector">
+      <div class="centrado">El camino del lector</div>
+         <style>
+            .encabezado{
+              position: relative;
+              display: block;
+              text-align: center;
+            }
+            .centrado{
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              color: white;
+              font-size: xx-large;      
+            }
+       </style>
+     </div>
+  <search>
+    <form style="background-color: blanchedalmond;">
+      <input type="search">
+      <input type="submit" value="Búsqueda">
+    </form>
+  </search>
+</header>
+<!- Se que la etiqueta center esta obsoleta, pero aún no conozco CSS para centrar el texto como me gustaría -->
+  <main>
+    <article style="background-color: rgb(245, 245, 218);">
+      <center><h1>¿Deseas que a tu hijo/a le guste leer y deje a un lado las pantallas?</h1>
+          <p>Los niños que no tienen motivación para leer pueden beneficiarse si los ayudan en casa.Ten en cuenta que la motivación para leer tiende a disminuir a medida que los niños crecen. Leer es como cualquier otra destreza. Si no practicas, no lograrás desarrollar el vocabulario, las habilidades y la facilidad. No podrás leer con rapidez.</p></center>
+      <h3> Esto es lo que debes hacer:</h3>
+            <ul>
+                <li><b>Programa tiempo de lectura junto a tu peque:</b> Ya sea leer juntos el mismo libro o por separado, establece un momento del día en la que toda la familia lea un libro.</li>
+                <li>Ir juntos a la biblioteca y seleccionar libros juntos.</li>
+                <li>Comentar con el peque la historia del libro.</li>
+            </ul>
+    </acticle>
+
+  <center><section style="background-color: aliceblue;">
+    <h2><ins>Temáticas para niños</ins></h2>
+      <p>Hay muchas opciones, lo primero es preguntar a tu peque qué le gusta o interesa. Pero las más atractivas para los niños suelen ser las siguientes:</p>
+          <a href="https://www.librerias-hsr.es/libros-de/fantasia-infantil-90/" target="_blank"><img src="images/magic-fairytale-book-concept (1).jpg" width="200" height="200" alt="imagen de un caballo alado saliendo de las páginas de un libro" title="Fantasía"></a>
+          <a href="https://www.amazon.es/b?ie=UTF8&node=13356163031" target="_blank"><img src="images/LibrosPoliciacos.jpg" width="200" height="200" alt="imagen de unos libros con unas esposas de policía encima" title="Policíaca"></a>
+          <a href="https://www.amazon.es/gp/bestsellers/digital-text/1349629031" target="_blank"><img src="images/human-skull-with-roses-spider-web.jpg" width="200" height="200" alt="imagen de unos libros apilados, una calavera, unas rosas y una calabaza cubiertas por una telaraña" title="Terror"></a>
+          <a href="https://www.amazon.es/Libros-Ciencia-Ficcion-Ninos-Jovenes/b?ie=UTF8&node=902636031" target="_blank"><img src="images/libroExtraterrestres.jpg" width="200" height="200" alt="imagen de un libro abierto en el que se puede ver un platillo volante abduciendo una vaca" title="Ciencia Ficción"></a>
+
+<fieldset>
+<!- Esta sección daría información sobre qué tipo de contenido interesa más a los ususarios de la página y debe desarrollarse con mayor contenido en el futuro. Debería enlazar con php y una BD pero aún no tengo ni idea de como se hace eso. I'm a newbie!  -->
+  <h4>¿Qué temática de libros prefieren leer tus peques?</h4>
+    <form action="procesar.php" method="post">
+       <label id="tematica"><ins>Elige una opción</ins>:</label>
+       <input type="radio" name="tematica" value="fantasia">Fantasía
+       <input type="radio" name="tematica" value="policiaca">Policíaca
+       <input type="radio" name="tematica" value="cienciaficion">Ciencia ficción
+       <input type="radio" name="tematica" value="romance">Romance
+       <input type="radio" name="tematica" value="superherores">Superhéroes
+       <input type="radio" name="tematica" value="terror">Terror
+       <input type="submit" value="Enviar" style="background-color: lightyellow;">
+    </form>
+</fieldset>
+</section></center>
+  </main>
+<aside>
+  <h3><ins>Recuerda</ins>: Elige tu libro según tus gustos</h3>
+  <p>Piensa en los momentos que te toca elegir una serie o película para ver en la TV o ir al cine ¿Cuál eliges? Aquella cuya temática te atrae más y te resulta más atractiva ¿cierto?. Pues con los libros es exactamente lo mismo, de hecho muchas de las películas que se estrenan están basadas en libros, los cuales obviamente, son mejores en descripción de detalles y desarrollo de la historia.</p>
+</aside>
+<aside>
+  <h3>¡Únete a nuestra Newsletter!</h3>
+    <form action=procesar.php method="post">
+      <label>Nombre:</label>
+        <input type="text" id="nombre" name="nombre" maxlength="20" required>
+     <label>Email:</label>
+        <input type="email" id="email" name="email" required>
+        <input type="submit" value="Enviar" style="background-color: lightyellow;">
+    </form>
+</aside>
+<center><footer style="background-color: lightblue;">
+  <h4>Información de Contacto</h4>
+  <address>
+    <strong>Autora de la web:</strong> Jaliska_25 / Alicia McRz <br>
+    <strong>Email:</strong> <email>aliciamcrz@gmail.com</email>
+  </address>
+  <h4>© Copyright</h4>
+</footer></center>
+</body>
+</html>
