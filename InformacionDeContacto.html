@@ -1,51 +1,50 @@
 <!DOCTYPE html>
 <html lang="es-ES">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>El camino del lector</title>
-  <link rel=" icon" type="image/png" sizes="32x32" href=images/android-icon-48x48.png>
-</head>
-<body>
-  <header>
-    <div class="encabezado">
-       <img src="images/sharpen-your-mind-by-education.jpg" alt="imagen de libros en una estantería" style="width:100%" height="200" title="El camino del lector">
-       <div class="titulo">El camino del lector</div>
-          <style>
-             .encabezado{
-               position: relative;
-               display: block;
-               text-align: center;
-             }
-             .titulo{
-               position: absolute;
-               top: 50%;
-               bottom: 0%;
-               left: 50%;
-               transform: translate(-50%, -50%);
-               color: white;
-               font-size: xxx-large;      
-             }
-        </style>
- 
- <nav class="menu" style="background-color: rgb(254, 240, 219); text-align:left">
-   <ul>
-     <li><a href="#">Inicio</a></li>
-     <li><a href="#">Libros según la edad</a></li>
-     <li><a href="#">Conócenos</a></li>
-   </ul>
-   <search>
-     <form style="text-align: justify;">
-       <input type="search">
-       <input type="submit" value="Búsqueda">
-     </form>
-   </search>
- </nav>
- </header>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>El camino del lector</title>
+      <link rel=" icon" type="image/png" sizes="32x32" href=images/android-icon-48x48.png>
+  </head>
+  <body>
+    <header>
+        <div class="encabezado">
+          <!--No podía ver el encabezado de la página sin el título, y según he leído eso solo se consigue con CSS, cómo aún no tengo idea de cómo funciona, lo he buscado en san google y he encontrado esta solución aunque no la entienda bien del todo (aunque he estado trasteando con ella). Puede que no sea la más correcta, pero de momento me hace el apaño para este ejercicio. Prometo revisar esta parte después del módulo de CSS!-->
+            <img src="images/sharpen-your-mind-by-education.jpg" alt="imagen de libros en una estantería" style="width:100%" height="200" title="El camino del lector">
+            <div class="titulo">El camino del lector</div>
+              <style>
+                  .encabezado{
+                    position: relative;
+                    display: block;
+                    text-align: center;
+                  }
+                  .titulo{
+                    position: absolute;
+                    top: 50%;
+                    bottom: 0%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    color: white;
+                    font-size: xxx-large;      
+                  }
+          </style>
 
-  <h2 style="background-color: lavender;">Información de contacto</h3>
-      <label><strong>Autora de la web:</strong> Jaliska_25 / Alicia McRz </label><br>
-      <strong>Email:</strong> <email>aliciamcrz@gmail.com</email><br><br>
-      <img src="images/yop.jpg" alt="imagen de la autora de la página web" width="150" title="Alicia McRz">
-</body>
+    <nav class="menu" style="background-color: rgb(254, 240, 219); text-align:left">
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Libros según la edad</a></li>
+          <li><a href="#">Noticias</a></li>
+          <li><a href="https://madrid.ebiblio.es/resources?q=infantiles" target="_blank">Biblioteca online</a></li>
+        </ul>
+          <form style="text-align: justify;">
+            <input type="search">
+            <input type="submit" value="Búsqueda">
+          </form>
+    </nav>
+    </header>
+      <h2 style="background-color: lavender;">Información de contacto</h3>
+          <label><strong>Autora de la web:</strong> Jaliska_25 / Alicia McRz </label><br>
+          <strong>Email:</strong> <email>aliciamcrz@gmail.com</email><br><br>
+          <img src="images/yop.jpg" alt="imagen de la autora de la página web" width="150" title="Alicia McRz">
+  </body>
 </html>
