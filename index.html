@@ -1,113 +1,118 @@
 <!DOCTYPE html>
 <html lang="es-ES">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>El camino del lector</title>
-    <link rel=" icon" type="image/png" sizes="32x32" href=images/android-icon-48x48.png>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El camino del lector</title>
+  <link rel=" icon" type="image/png" sizes="32x32" href=images/android-icon-48x48.png>
 </head>
 <body>
   <header>
-    <div class="encabezado">
-      <!--No podía ver el encabezado de la página sin el título, y según he leído eso solo se consigue con CSS, cómo aún no tengo idea de cómo funciona, lo he buscado en san google y he encontrado esta solución aunque no la entienda bien del todo (aunque he estado trasteando con ella). Puede que no sea la más correcta, pero de momento me hace el apaño para este ejercicio. Prometo revisar esta parte después del módulo de CSS!-->
-        <img src="images/sharpen-your-mind-by-education.jpg" alt="imagen de libros en una estantería" style="width:100%" height="200" title="El camino del lector">
-        <div class="titulo">El camino del lector</div>
-          <style>
-              .encabezado{
-                position: relative;
-                display: block;
-                text-align: center;
-              }
-              .titulo{
-                position: absolute;
-                top: 50%;
-                bottom: 0%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                color: white;
-                font-size: xxx-large;      
-              }
-       </style>
-
-<nav class="menu" style="background-color: rgb(254, 240, 219); text-align:left">
-    <ul>
-      <li><a href="#">Inicio</a></li>
-      <li><a href="#">Libros según la edad</a></li>
-      <li><a href="#">Noticias</a></li>
-      <li><a href="https://madrid.ebiblio.es/resources?q=infantiles" target="_blank">Biblioteca online</a></li>
-    </ul>
-      <form style="text-align: justify;">
-        <input type="search">
-        <input type="submit" value="Búsqueda">
-      </form>
-</nav>
-</header>
-
+      <img src="images/sharpen-your-mind-by-education.jpg" alt="Libros en una estantería" style="width:100%"
+        height="200"> 
+        <h1>El camino del lector</h1>
+        
+      <nav class="menu" style="background-color: rgb(254, 240, 219); text-align:left">
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Libros según la edad</a></li>
+          <li><a href="#">Noticias</a></li>
+          <li><a href="https://madrid.ebiblio.es/resources?q=infantiles" target="_blank">Biblioteca online</a></li>
+        </ul>
+        <form style="text-align: justify;">
+          <input type="search">
+          <input type="submit" value="Búsqueda">
+        </form>
+      </nav>
+  </header>
   <main>
     <section>
       <!--Los artículos irían más desarrollados, con más texto, referencias y pautas para padres, no lo desarrollo más porque esa no es la finalidad de este ejercicio-->
-      <article style="background-color: rgb(245, 245, 218); text-align: left;">
-          <h1>¿Deseas que a tu hijo/a le guste leer y deje a un lado las pantallas?</h1>
-          <p>Los niños que no tienen motivación para leer pueden beneficiarse si los ayudan en casa.Ten en cuenta que la motivación para leer tiende a disminuir a medida que los niños crecen. Leer es como cualquier otra destreza. Si no practicas, no lograrás desarrollar el vocabulario, las habilidades y la facilidad. No podrás leer con rapidez.</p>
+     <article style="background-color: rgb(245, 245, 218); text-align: left;">
+        <h1>¿Deseas que a tu hijo/a le guste leer y deje a un lado las pantallas?</h1>
+        <p>Los niños que no tienen motivación para leer pueden beneficiarse si los ayudan en casa.Ten en cuenta que la
+          motivación para leer tiende a disminuir a medida que los niños crecen. Leer es como cualquier otra destreza.
+          Si no practicas, no lograrás desarrollar el vocabulario, las habilidades y la facilidad. No podrás leer con
+          rapidez.</p>
 
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/kiWqRAOmkjw?si=afjgtXeNM4djyL3O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kiWqRAOmkjw?si=afjgtXeNM4djyL3O"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-      <h2 style="text-align: left;"><ins>Esto es lo que debes hacer</ins></h2>
-            <ul style="text-align: left;">
-                <li><b>Programa tiempo de lectura junto a tu peque:</b> Ya sea leer juntos el mismo libro o por separado, establece un momento del día en la que toda la familia lea un libro.</li>
-                <li>Ir juntos a la biblioteca y seleccionar libros juntos.</li>
-                <li>Comentar con el peque la historia del libro.</li>
-            </ul>
-    </acticle>
+        <h2><ins>Esto es lo que debes hacer</ins></h2>
+        <ul>
+          <li><b>Programa tiempo de lectura junto a tu peque:</b> Ya sea leer juntos el mismo libro o por separado,
+            establece un momento del día en la que toda la familia lea un libro.</li>
+          <li>Ir juntos a la biblioteca y seleccionar libros juntos.</li>
+          <li>Comentar con el peque la historia del libro.</li>
+          <li>Etc.</li>
+        </ul>
+      </acticle>
 
-  <article style="background-color: aliceblue; text-align: center;">
-    <h2><ins>Temáticas para niños</ins></h2>
-        <p>Hay muchas opciones, lo primero es preguntar a tu peque qué le gusta o interesa. Pero las más atractivas para los niños suelen ser las siguientes:</p>
-            <a href="https://www.librerias-hsr.es/libros-de/fantasia-infantil-90/" target="_blank"><img src="images/magic-fairytale-book-concept%20(1).jpg" width="200" height="200" alt="imagen de un caballo alado saliendo de las páginas de un libro" title="Fantasía"></a>
-            <a href="https://www.amazon.es/b?ie=UTF8&node=13356163031" target="_blank"><img src="images/LibrosPoliciacos.jpg" width="200" height="200" alt="imagen de unos libros con unas esposas de policía encima" title="Policíaca"></a>
-            <a href="https://www.amazon.es/gp/bestsellers/digital-text/1349629031" target="_blank"><img src="images/human-skull-with-roses-spider-web.jpg" width="200" height="200" alt="imagen de unos libros apilados, una calavera, unas rosas y una calabaza cubiertas por una telaraña" title="Terror"></a>
-            <a href="https://www.amazon.es/Libros-Ciencia-Ficcion-Ninos-Jovenes/b?ie=UTF8&node=902636031" target="_blank"><img src="images/libroExtraterrestres.jpg" width="200" height="200" alt="imagen de un libro abierto en el que se puede ver un platillo volante abduciendo una vaca" title="Ciencia Ficción"></a>
-
-          <fieldset>
-          <!-- Esta sección daría información sobre qué tipo de contenido interesa más a los ususarios de la página y debe desarrollarse con mayor contenido en el futuro. Debería enlazar con php y una BD pero aún no tengo ni idea de como se hace eso. I'm a newbie! -->
-            <h3>¿Qué temática de libros prefieren leer tus peques?</h3>
-                <form action="procesar.php" method="post">
-                    <label id="tematica"><ins>Elige una opción</ins>:</label>
-                    <input type="radio" name="tematica" value="fantasia">Fantasía
-                    <input type="radio" name="tematica" value="policiaca">Policíaca
-                    <input type="radio" name="tematica" value="cienciaficion">Ciencia ficción
-                    <input type="radio" name="tematica" value="romance">Romance
-                    <input type="radio" name="tematica" value="superherores">Superhéroes
-                    <input type="radio" name="tematica" value="terror">Terror
-                    <input type="submit" value="Enviar" style="background-color: lightyellow;">
-                </form>
-          </fieldset>
-      </article>
+        <article style="background-color: aliceblue">
+          <h2><ins>Temáticas para niños</ins></h2>
+          <p>Hay muchas opciones, lo primero es preguntar a tu peque qué le gusta o interesa. Pero las más atractivas
+            para los niños suelen ser las siguientes:</p>
+          <a href="https://www.librerias-hsr.es/libros-de/fantasia-infantil-90/" target="_blank"><img
+              src="images/magic-fairytale-book-concept%20(1).jpg" width="200" height="200"
+              alt="Caballo blanco alado saliendo de las páginas de un libro" title="Fantasía"></a>
+          <a href="https://www.amazon.es/b?ie=UTF8&node=13356163031" target="_blank"><img
+              src="images/LibrosPoliciacos.jpg" width="200" height="200"
+              alt="Libros apilados con unas esposas de policía encima" title="Policíaca"></a>
+          <a href="https://www.amazon.es/gp/bestsellers/digital-text/1349629031" target="_blank"><img
+              src="images/human-skull-with-roses-spider-web.jpg" width="200" height="200"
+              alt="Libros apilados, una calavera, unas rosas y una calabaza cubiertas por una telaraña"
+              title="Terror"></a>
+          <a href="https://www.amazon.es/Libros-Ciencia-Ficcion-Ninos-Jovenes/b?ie=UTF8&node=902636031"
+            target="_blank"><img src="images/libroExtraterrestres.jpg" width="200" height="200"
+              alt="Libro abierto en el que se puede ver un platillo volante abduciendo una vaca"
+              title="Ciencia Ficción"></a>
+        </article>
     </section>
-  </main>
-<!--Todos los aside irían en la parte izquierda de la página, que de nuevo se hace con CSS-->
-      <aside style="text-align: left;">
-        <h3><ins>¿Sabías qué?</ins></h3>
-        <p>Muchas de las películas que se estrenan están basadas en libros, los cuales obviamente, son mejores en descripción de detalles y desarrollo de la historia.</p>
-      </aside>
-      <aside style="text-align: left;">
-        <h3><ins>¡LIBRO RECOMENDADO DEL MES!</ins></h3>
-        <a href="https://www.amazon.es/Harry-Potter-Piedra-Filosofal-Rowling/dp/8478884459/ref=asc_df_8478884459/?tag=googshopes-21&linkCode=df0&hvadid=699705985593&hvpos=&hvnetw=g&hvrand=2656363091599051134&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1005496&hvtargid=pla-564364367728&psc=1&mcid=72aff213a92f367da9717f1d988d8bd2&gad_source=1" target="_blank"><img src="images/HarryPotter.jpg" alt="imagen de la caratula del libro: Harry Potter y la piedra filosofal" title="Harry Potter y la piedra filosoal"></a>
-      </aside>
-      <aside>
-        <h3>¡Únete a nuestra Newsletter!</h3>
-          <form action=procesar.php method="post">
-            <label>Nombre:</label>
-              <input type="text" id="nombre" name="nombre" maxlength="20" required>
-            <label>Email:</label>
-              <input type="email" id="email" name="email" required>
-              <input type="submit" value="Enviar" style="background-color: lightyellow;">
-          </form>
-      </aside>
-      <footer style="background-color: lightblue; text-align: center;">
-          <h4><a href="InformacionDeContacto.html" target="_blank">Información de Contacto</a></h4>
-          <h4><a href="https://es.wikipedia.org/wiki/Copyright#:~:text=El%20copyright%E2%80%8B%20o%20derecho,generalmente%20por%20un%20tiempo%20limitado." target="_blank">© Copyright</a></h4>
-          <h4><a href="https://www.instagram.com/" target="_blank">Redes sociales</a></h4>
-      </footer>
-  </body>
+  <aside>
+    <fieldset>
+      <!-- Esta sección daría información sobre qué tipo de contenido interesa más a los ususarios de la página y debe desarrollarse con mayor contenido en el futuro. Debería enlazar con php y una BD pero aún no tengo ni idea de como se hace eso.-->
+      <h3>¿Qué temática de libros prefieren leer tus peques?</h3>
+      <form action="procesar.php" method="post">
+        <label id="tematica"><ins>Elige una opción</ins>:</label>
+        <input type="radio" name="tematica" value="fantasia">Fantasía
+        <input type="radio" name="tematica" value="policiaca">Policíaca
+        <input type="radio" name="tematica" value="cienciaficion">Ciencia ficción
+        <input type="radio" name="tematica" value="romance">Romance
+        <input type="radio" name="tematica" value="superherores">Superhéroes
+        <input type="radio" name="tematica" value="terror">Terror
+        <input type="submit" value="Enviar" style="background-color: lightyellow;">
+      </form>
+    </fieldset>
+  </aside>
+  <aside style="text-align: left;">
+    <h3><ins>¿Sabías qué?</ins></h3>
+    <p>Muchas de las películas que se estrenan están basadas en libros, los cuales obviamente, son mejores en
+      descripción de detalles y desarrollo de la historia.</p>
+  </aside>
+  <aside style="text-align: left;">
+    <h3><ins>¡LIBRO RECOMENDADO DEL MES!</ins></h3>
+    <a href="https://www.amazon.es/Harry-Potter-Piedra-Filosofal-Rowling/dp/8478884459/ref=asc_df_8478884459/?tag=googshopes-21&linkCode=df0&hvadid=699705985593&hvpos=&hvnetw=g&hvrand=2656363091599051134&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1005496&hvtargid=pla-564364367728&psc=1&mcid=72aff213a92f367da9717f1d988d8bd2&gad_source=1" target="_blank">
+      <img src="images/HarryPotter.jpg" alt="Carátula del libro: Harry Potter y la piedra filosofal"></a>
+  </aside>
+  <aside>
+    <!--Esto también iría ligado a php y una BD-->
+    <h3>¡Únete a nuestra Newsletter!</h3>
+    <form action=procesar.php method="post">
+      <label>Nombre:</label>
+      <input type="text" id="nombre" name="nombre" maxlength="20" required>
+      <label>Email:</label>
+      <input type="email" id="email" name="email" required>
+      <input type="submit" value="Enviar" style="background-color: lightyellow;">
+    </form>
+  </aside>
+  <footer style="background-color: lightblue; text-align: center;">
+    <h4><a href="InformacionDeContacto.html" target="_blank">Información de Contacto</a></h4>
+    <h4><a href="https://es.wikipedia.org/wiki/Copyright#:~:text=El%20copyright%E2%80%8B%20o%20derecho,generalmente%20por%20un%20tiempo%20limitado." target="_blank">© Copyright</a></h4>
+    <h4><a href="https://www.instagram.com/" target="_blank">Redes sociales</a></h4>
+  </footer>
+</main>
+</body>
 </html>
