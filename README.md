@@ -1,4 +1,4 @@
-# 🏗️ HTML5 Information Architecture Project
+# 🏗️ HTML5 Project
 
 Hey! 👋  
 This is a project from the Cybersecurity Master’s Program where I built a complete web app **using only HTML5**.  
